@@ -104,13 +104,11 @@ program with a `.desktop` entry, so launchers such as fuzzel list it.
   `(list :system ',system ,@plist))
 
 (license-terms lpz407
-  :type        '(:|LGPL-2.1-only WITH LLGPL| . "https://spdx.org/licenses/LLGPL.html")
-  :permissions '(:use :copy :modify :distribute :link)
+  :type        '(:MIT . "https://spdx.org/licenses/MIT.html")
+  :permissions '(:use :copy :modify :merge :publish :distribute
+                 :sublicense :sell)
   :conditions  '(:include-copyright-notice
-                 :disclose-source-lib
-                 :same-license-lib
-                 :state-changes
-                 :lisp-linking)
+                 :include-license-notice)
   :warranty    nil)
 ```
 

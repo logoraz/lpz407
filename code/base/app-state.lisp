@@ -1,9 +1,3 @@
-;;;; SPDX-License-Identifier: LGPL-2.1-only WITH LLGPL
-;;;; Copyright (C) 2026 Erik P Almaraz
-;;;;
-;;;; Licensed under the LGPL-2.1-only with the LLGPL preamble;
-;;;; see the LICENSE file in this repository.
-
 (defpackage #:lpz407/base/app-state
   (:use #:cl)
   (:local-nicknames (#:z407 #:lpz407/base/z407-protocol))
